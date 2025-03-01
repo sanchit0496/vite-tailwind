@@ -1,10 +1,13 @@
 import "./App.css";
 
 function App() {
-
   return (
     <>
-      <h1 class="text-5xl font-bold underline">Hello world!</h1>
+      <div class="flex items-center justify-center min-h-screen">
+        <h1 class="text-4xl font-semibold text-blue-600">
+          Welcome to Tailwind CSS!
+        </h1>
+      </div>
     </>
   );
 }
